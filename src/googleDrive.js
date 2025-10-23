@@ -1,7 +1,7 @@
 // googleDrive.js
 // Autenticação e upload/download para Google Drive usando Google Identity Services
 // Inclui suporte a login automático via token guardado
-
+/* global google */
 const CLIENT_ID = "783894201201-m32lfnl5a8n746fk0hobehge6oudee1e.apps.googleusercontent.com";
 const SCOPES = "https://www.googleapis.com/auth/drive.file";
 
